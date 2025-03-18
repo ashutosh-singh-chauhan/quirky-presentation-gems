@@ -6,6 +6,7 @@ import TypeScriptSlides from './slides/TypeScriptSlides';
 import AccessibilitySlides from './slides/AccessibilitySlides';
 import RxJSSlides from './slides/RxJSSlides';
 import { cn } from '@/lib/utils';
+import { ScrollArea } from '@/components/ui/scroll-area';
 
 const fadeVariants = {
   hidden: { opacity: 0 },
@@ -251,7 +252,9 @@ const Presentation = () => {
       
       {/* Main content */}
       <div className="flex-1 overflow-hidden">
-        {renderSlide()}
+        <ScrollArea className="h-full w-full">
+          {renderSlide()}
+        </ScrollArea>
       </div>
       
       {/* Navigation controls */}
