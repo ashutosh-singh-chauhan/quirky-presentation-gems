@@ -138,9 +138,7 @@ const TypeScriptTypes = () => (
   <span class="variable">email</span>: <span class="type">string</span>;
 }
 
-<span class="keyword">function</span> <span class="function">processUser</span>(<span class="variable">user</span>: <span class="type">User</span>): <span class="type">string</span> {
-  <span class="keyword">return</span> user.name;
-}`}</pre>
+`}</pre>
         </CodeBlock>
       </div>
       
